@@ -10,11 +10,11 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #fd4d41;
+  --ifm-color-primary: #f44336;
   --ifm-color-primary-dark: #e53935;
-  --ifm-color-primary-darker: #d32f2f;
+  --ifm-color-primary-darker: #e0291c;
   --ifm-color-primary-darkest: #c62828;
-  --ifm-color-primary-light: #ef5350;
+  --ifm-color-primary-light: #ff5347;
   --ifm-color-primary-lighter: #e57373;
   --ifm-color-primary-lightest: #ef9a9a;
   --ifm-code-font-size: 95%;
@@ -28,13 +28,6 @@
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
-  --ifm-color-primary: #fd4d41;
-  --ifm-color-primary-dark: #e53935;
-  --ifm-color-primary-darker: #d32f2f;
-  --ifm-color-primary-darkest: #c62828;
-  --ifm-color-primary-light: #ef5350;
-  --ifm-color-primary-lighter: #e57373;
-  --ifm-color-primary-lightest: #ef9a9a;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
@@ -43,7 +36,7 @@
   font-size: 1.1em;
   padding: 10px 32px!important;
   color: rgb(241, 241, 241) !important;
-  background-color: #ff5347!important;
+  background-color: var(--ifm-color-primary-light);
   border: none;
   display: inline-block!important;
   line-height: inherit!important;
@@ -53,5 +46,5 @@
 }
 
 .button:hover {
-background-color: #e0291c!important;
+background-color: var(--ifm-color-primary-darker);
 }
