@@ -63,3 +63,7 @@ background-color: var(--ifm-color-primary-darker);
   font-family: 'Josefin Sans';
   font-size: 0.875rem;
 }
+
+.navbar__logo {
+  height: 3rem;
+}

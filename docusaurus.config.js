@@ -64,7 +64,6 @@ const config = {
         logo: {
           alt: "Chatulus Logo",
           src: "img/logo.png",
-          height: '3rem',
         },
         items: [
           {
