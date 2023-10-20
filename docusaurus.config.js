@@ -11,7 +11,7 @@ const projectName = "chatulus.github.io";
 const config = {
   title: "Chatulus",
   tagline: "Customizable messaging platform you can trust",
-  url: `https://chatulus.github.io`,
+  url: `https://chat.1us.ca`,
   baseUrl: `/`,
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "throw",

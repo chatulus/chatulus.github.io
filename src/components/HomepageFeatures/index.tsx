@@ -10,32 +10,29 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
+    title: 'Truly Open Source',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Chatulus is truly open source, from end-to-end, client to server, Chatulus' source code is available on GitHub, you can even self-host both a custom client app and/or a custom server.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Focus on Customizability',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Chatulus provides a user customizable messaging client, not only you can change how the Chatulus app look like, we also allows user to choose between different encyption method, how your data are stored in local or in the cloud. You can even connect to your own server, or any 3rd party server that you trust.
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'Community Store',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Extend or customize Chatulus quickly by installing or sharing extensions from the Community Store. Chatulus allows everyone to quickly creates or install extensions, shortcuts, or even your customized settings with other users over the community.
       </>
     ),
   },
