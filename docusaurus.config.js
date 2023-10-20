@@ -66,21 +66,40 @@ const config = {
           src: "img/logo.png",
         },
         items: [
+          { 
+          to: "/features", 
+          label: "Features", 
+          position: "left" 
+          },
+          { 
+            to: "/blog", 
+            label: "Blog", 
+            position: "left" 
+          },
           {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Docs",
           },
-          { to: "/blog", label: "Blog", position: "left" },
+          { 
+            to: "/downloads", 
+            label: "Downloads", 
+            position: "left" 
+          },
           {
-            href: `https://github.com/${organizationName}/${projectName}`,
+            href: `https://github.com/${organizationName}/${organizationName}`,
             label: "GitHub",
-            position: "right",
+            position: "left",
           },
           {
             type: 'localeDropdown',
             position: 'right',
+          },
+          { 
+            to: "/", 
+            label: "Coming Soon", 
+            position: "right" 
           },
         ],
       },
