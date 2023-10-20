@@ -67,7 +67,7 @@ const config = {
         },
         items: [
           { 
-            href: "#features", 
+            to: "/blog", 
             label: "Features", 
             position: "left" 
           },
@@ -83,7 +83,7 @@ const config = {
             label: "Docs",
           },
           { 
-            href: "/downloads", 
+            to: "/blog", 
             label: "Downloads", 
             position: "left" 
           },
@@ -98,7 +98,7 @@ const config = {
             position: 'right',
           },
           { 
-            href: "#", 
+            to: "/blog", 
             label: "Coming Soon", 
             position: "right" 
           },
