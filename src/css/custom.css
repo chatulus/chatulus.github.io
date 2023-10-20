@@ -24,11 +24,14 @@
   --ifm-font-family-monospace: 'Lexend', 'Liberation Mono', 'Courier New', monospace;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  --ifm-navbar-height: 4.125rem;
+  --ifm-navbar-border-bottom-color: #d3d3d3;
 }
 
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme='dark'] {
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+  --ifm-navbar-border-bottom-color: #303846;
 }
 
 .button {
@@ -52,7 +55,7 @@ background-color: var(--ifm-color-primary-darker);
 .navbar {
   box-shadow: none;
   border: none;
-  border-bottom: 1px solid #d3d3d3!important;
+  border-bottom: 1px solid var(--ifm-navbar-border-bottom-color);
 }
 
 .navbar__items {
@@ -62,6 +65,7 @@ background-color: var(--ifm-color-primary-darker);
 .navbar__link {
   font-family: 'Josefin Sans';
   font-size: 0.875rem;
+  padding-top: 0.5em;
 }
 
 .navbar__logo {
