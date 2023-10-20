@@ -30,7 +30,6 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title="Customizable messaging platform you can trust"
       description="Customizable messaging platform you can trust">
       <HomepageHeader />
       <main>
