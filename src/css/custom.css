@@ -69,5 +69,5 @@ background-color: var(--ifm-color-primary-darker);
 }
 
 .navbar__logo {
-  height: 3rem;
+  margin-right: 1rem;
 }
