@@ -30,7 +30,7 @@ export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title="Chatulus"
       description="Customizable messaging platform you can trust">
       <HomepageHeader />
       <main>
