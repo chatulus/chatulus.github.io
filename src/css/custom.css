@@ -79,7 +79,8 @@ background-color: var(--ifm-color-primary-darker);
 .navbar_landing_btn {
   border-radius: 8px;
   background-color: #fd4d41;
-  color: #fff;
+  color: #fff !important;  /* To simulate a disabled button */
+  pointer-events: none;  /* To simulate a disabled button */
   font-weight: 600;
   -webkit-transition: background-color .5s;
   transition: background-color .5s;
