@@ -14,7 +14,7 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Chatulus is truly open source, from end-to-end, client to server, Chatulus' source code is available on GitHub, you can even self-host both a custom client app and/or a custom server.
+        Chatulus is truly open source, from end-to-end, client to server, Chatulus source code is available on GitHub, you can even self-host both a custom client app and/or a custom server.
       </>
     ),
   },
@@ -23,7 +23,34 @@ const FeatureList: FeatureItem[] = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Chatulus provides a user customizable messaging client, not only you can change how the Chatulus app look like, we also allows user to choose between different encyption method, how your data are stored in local or in the cloud. You can even connect to your own server, or any 3rd party server that you trust.
+        Chatulus provides a user customizable messaging client. Not only you can change how the Chatulus app look like, it allows user to choose between different encyption method, manage how your data are stored in local or in the cloud. You can even connect to your own server, or any 3rd party server that you trust.
+      </>
+    ),
+  },
+  {
+    title: 'Truly Open Source',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Chatulus is truly open source, from end-to-end, client to server, Chatulus source code is available on GitHub, you can even self-host both a custom client app and/or a custom server.
+      </>
+    ),
+  },
+  {
+    title: 'Truly Open Source',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    description: (
+      <>
+        Chatulus is truly open source, from end-to-end, client to server, Chatulus source code is available on GitHub, you can even self-host both a custom client app and/or a custom server.
+      </>
+    ),
+  },
+  {
+    title: 'Focus on Customizability',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    description: (
+      <>
+        Chatulus provides a user customizable messaging client. Not only you can change how the Chatulus app look like, it allows user to choose between different encyption method, manage how your data are stored in local or in the cloud. You can even connect to your own server, or any 3rd party server that you trust.
       </>
     ),
   },
