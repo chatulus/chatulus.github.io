@@ -55,12 +55,12 @@ background-color: var(--ifm-color-primary-darker);
   border-bottom: 1px solid #d3d3d3!important;
 }
 
-.navbar_item {
+.navbar__items {
   color: #000;
   font-size: 0.875rem;
 }
 
-.navbar_link {
+.navbar__link {
   font-family: 'Josefin Sans';
   letter-spacing: 0.02857em;
 }
