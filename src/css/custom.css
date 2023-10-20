@@ -71,3 +71,18 @@ background-color: var(--ifm-color-primary-darker);
 .navbar__logo {
   margin-right: 1rem;
 }
+
+.navbar__link svg {
+  display: none;
+}
+
+.navbar_landing_btn {
+  border-radius: 8px;
+  background-color: #fd4d41;
+  color: #fff;
+  font-weight: 600;
+  -webkit-transition: background-color .5s;
+  transition: background-color .5s;
+  padding: 0.5em 1.5em;
+  margin-right: 0.5em;
+}

@@ -13,7 +13,7 @@ const config = {
   tagline: "Customizable messaging platform you can trust",
   url: `https://chat.1us.ca`,
   baseUrl: `/`,
-  onBrokenLinks: "throw",
+  onBrokenLinks: "ignore",
   onBrokenMarkdownLinks: "throw",
   favicon: "img/logo.png",
   // GitHub Pages adds a trailing slash by default that I don't want
@@ -67,7 +67,7 @@ const config = {
         },
         items: [
           { 
-            to: "/blog", 
+            to: "/features", 
             label: "Features", 
             position: "left" 
           },
@@ -83,7 +83,7 @@ const config = {
             label: "Docs",
           },
           { 
-            to: "/blog", 
+            to: "/downloads", 
             label: "Downloads", 
             position: "left" 
           },
@@ -91,16 +91,16 @@ const config = {
             href: `https://github.com/${organizationName}/${organizationName}`,
             label: "GitHub",
             position: "left",
-            "aria-label": "GitHub repository",
+          },
+          { 
+            to: "/", 
+            label: "Coming Soon", 
+            position: "right" ,
+            className: "navbar_landing_btn"
           },
           {
             type: 'localeDropdown',
             position: 'right',
-          },
-          { 
-            to: "/blog", 
-            label: "Coming Soon", 
-            position: "right" 
           },
         ],
       },
