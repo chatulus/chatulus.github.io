@@ -67,9 +67,9 @@ const config = {
         },
         items: [
           { 
-          to: "/features", 
-          label: "Features", 
-          position: "left" 
+            href: "#features", 
+            label: "Features", 
+            position: "left" 
           },
           { 
             to: "/blog", 
@@ -83,7 +83,7 @@ const config = {
             label: "Docs",
           },
           { 
-            to: "/downloads", 
+            href: "/downloads", 
             label: "Downloads", 
             position: "left" 
           },
@@ -91,13 +91,14 @@ const config = {
             href: `https://github.com/${organizationName}/${organizationName}`,
             label: "GitHub",
             position: "left",
+            "aria-label": "GitHub repository",
           },
           {
             type: 'localeDropdown',
             position: 'right',
           },
           { 
-            to: "/", 
+            href: "#", 
             label: "Coming Soon", 
             position: "right" 
           },
