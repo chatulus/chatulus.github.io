@@ -83,8 +83,8 @@ const config = {
             label: "Docs",
           },
           { 
-            to: "/downloads", 
-            label: "Downloads", 
+            to: "/download", 
+            label: "Download", 
             position: "left" 
           },
           {
